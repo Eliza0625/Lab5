@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(253, 253, 253);
+    width: fit-content;
+}
+
+header{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: .5vw;
+    padding-bottom: 1vw;
+    text-align: center;
+    min-width: 50%;
+    font-size: 1em;
+    font-size:1.5vw;
+}
+
+main{
+    width: 100%;
+    font-size: 1.5vw;
+}
+
+#flex-container{
+    display: flex;
+    box-sizing:border-box;
+}
+
+#flex-item1{
+    display: block;
+    flex: 30%;
+    background-color:dimgray;
+}
+
+#flex-item2{
+    flex: 70%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    font-size: 3.5em;
+    width: auto;
+}
+
+h2, h3{
+    font-size: 3em;
+    width: auto;
+}
+
+
+
+p{
+    font-size: 1.7em;
+    width: auto;
+}
+
+
+.activities{
+    list-style: circle;
+    background-color: white;
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 5%;
+}
+
+*{
+    padding:0;
+}
+
+
+ul{ 
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    font-size: 2.5vw;
+}
+
+nav li{
+    display:flex;
+    text-align: center;
+    margin-left: 30%;
+    font-size: 1.5em;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    width:100%;
+}
+
+.drinks {
+    list-style: decimal;
+    padding-left: 20px; /* Add padding for better alignment */
+    font-size: 1.5em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+
+footer{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+}
